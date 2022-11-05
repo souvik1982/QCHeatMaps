@@ -2,7 +2,7 @@
 Souvik Das, 2022 <br/>
 souvik1982@gmail.com
 
-This is a fast algorithm for Quality Control using heatmaps or greyscale images of products. It reports the similarity between a product's reference heatmap and the heatmap of a particular product on the factory floor as a number between 0 (bad) and 1 (good). It disregards image rotations, image scale, temperature offsets and scale, and small variations of optical focusing.
+This is a fast algorithm for Quality Control using heatmaps or greyscale images of products on a factory floor. It reports the similarity between a product's reference heatmap and the heatmap of a particular product as a number between 0 (bad) and 1 (good). It disregards image rotations, image scale, temperature offsets and scale, and small variations of optical focusing.
 
 The algorithm is being developed in the context of Quality Control for silicon detector readout chips in the Inner Tracker of the Compact Muon Solenoid Detector (Phase II) at the Large Hadron Collider. It relies on an application of the <a href="https://www.itl.nist.gov/div898/handbook/eda/section3/eda35g.htm">Kolmogorov-Smirnov Goodness of Fit test</a> on heatmap data. Outlined below are the steps.
 
