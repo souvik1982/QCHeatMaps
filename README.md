@@ -30,3 +30,60 @@ The algorithm is being developed in the context of Quality Control for silicon d
 </ul>
 
 Normalizing the temperatures disregards temperature offsets and scale. Scanning radially from the center of mass eliminates variations from rotation. Dividing the radius by the scale eliminates the scale of the image. Since the KS-statistic works on the cumulative distribution function, it does not penalize bin migrations between adjacent bins twice as a $\chi^2$ test would, thus developing an immunity against a lack of perfect optical focus.
+
+<table border="2">
+<tr> 
+ <td> <img src="doc/c_image_noMassage_202.png"/> ID = 202 </td> 
+ <td> <img src="doc/c_image_noMassage_203.png"/> ID = 203 </td> 
+ <td> <img src="doc/c_T_rs_202_203.png"/> KS-statistic = 0.999 </td> 
+</tr>
+<tr> 
+ <td> <img src="doc/c_image_noMassage_202.png"/> ID = 202 </td> 
+ <td> <img src="doc/c_image_noMassage_204.png"/> ID = 204 </td> 
+ <td> <img src="doc/c_T_rs_202_204.png"/> KS-statistic = 0.999 </td> 
+</tr>
+<tr> 
+ <td> <img src="doc/c_image_noMassage_202.png"/> ID = 202 </td> 
+ <td> <img src="doc/c_image_noMassage_205.png"/> ID = 205 </td> 
+ <td> <img src="doc/c_T_rs_202_205.png"/> KS-statistic = 1.000 </td> 
+</tr>
+<tr> 
+ <td> <img src="doc/c_image_noMassage_203.png"/> ID = 203 </td> 
+ <td> <img src="doc/c_image_noMassage_204.png"/> ID = 204 </td> 
+ <td> <img src="doc/c_T_rs_203_204.png"/> KS-statistic = 0.978 </td> 
+</tr>
+<tr> 
+ <td> <img src="doc/c_image_noMassage_203.png"/> ID = 203 </td> 
+ <td> <img src="doc/c_image_noMassage_205.png"/> ID = 205 </td> 
+ <td> <img src="doc/c_T_rs_203_205.png"/> KS-statistic = 1.000 </td> 
+</tr>
+<tr> 
+ <td> <img src="doc/c_image_noMassage_204.png"/> ID = 204 </td> 
+ <td> <img src="doc/c_image_noMassage_205.png"/> ID = 205 </td> 
+ <td> <img src="doc/c_T_rs_204_205.png"/> KS-statistic = 0.998 </td> 
+</tr>
+<tr> 
+ <td> <img src="doc/c_image_noMassage_202.png"/> ID = 202 </td> 
+ <td> <img src="doc/c_image_noMassage_205_messUp.png"/> ID = 205_messUp </td> 
+ <td> <img src="doc/c_T_rs_205_205_messUp.png"/> KS-statistic = 0.318 </td> 
+</tr>
+<tr> 
+ <td> <img src="doc/c_image_noMassage_203.png"/> ID = 203 </td> 
+ <td> <img src="doc/c_image_noMassage_205_messUp.png"/> ID = 205_messUp </td> 
+ <td> <img src="doc/c_T_rs_203_205_messUp.png"/> KS-statistic = 0.204 </td> 
+</tr>
+<tr> 
+ <td> <img src="doc/c_image_noMassage_204.png"/> ID = 204 </td> 
+ <td> <img src="doc/c_image_noMassage_205_messUp.png"/> ID = 205_messUp </td> 
+ <td> <img src="doc/c_T_rs_204_205_messUp.png"/> KS-statistic = 0.384 </td> 
+</tr>
+<tr> 
+ <td> <img src="doc/c_image_noMassage_205.png"/> ID = 205 </td> 
+ <td> <img src="doc/c_image_noMassage_205_messUp.png"/> ID = 205_messUp </td> 
+ <td> <img src="doc/c_T_rs_205_205_messUp.png"/> KS-statistic = 0.294 </td> 
+</tr>
+</table>
+
+
+
+
