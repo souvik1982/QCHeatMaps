@@ -6,7 +6,7 @@ This is a fast algorithm for Quality Control using heatmaps or greyscale images 
 
 The algorithm is being developed in the context of Quality Control for silicon detector readout chips in the Inner Tracker of the Compact Muon Solenoid Detector (Phase II) at the Large Hadron Collider. It relies on an application of the <a href="https://www.itl.nist.gov/div898/handbook/eda/section3/eda35g.htm">Kolmogorov-Smirnov Goodness of Fit test</a> on heatmap data. Outlined below are the steps.
 
-<img src="doc/Illustration.png"/>
+<img src="doc/Illustration.png" style="width: 70vw"/>
 
 <ul>
 <li> Detect the foreground and eliminate the background </li>
